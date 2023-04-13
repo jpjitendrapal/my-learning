@@ -9,6 +9,7 @@ import "./styles.css";
 // import { useEffect, useRef } from "react";
 // import pipe from "./Problems/Pipe_Compose";
 import "../src/Problems/problem";
+import Posts from './Posts';
 
 export default function App() {
   // const isCalled2 = useRef(false);
@@ -44,6 +45,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>My Learning Of React Application</h1>
+      <Posts/>
       {/* <RenderList /> */}
       {/* <ToDo /> */}
       {/* <Timer forTime={5 * 60} /> */}
