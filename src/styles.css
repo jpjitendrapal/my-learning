@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.todo-app {
+  border: 1px solid black;
+  padding: 24px;
+}
+.task {
+  display: flex;
+  padding-top: 12px;
+  justify-content: space-between;
+  width: 90%;
+}
+.task-title {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  position: relative;
+  line-height: 16px;
+  font-size: 16px;
+  position: relative;
+  top: 3px;
+}
+.task-title.done {
+  color: green;
+}
+.task-title:first-letter {
+  text-transform: capitalize;
+}
+.todo-filter {
+  padding: 12px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.timer-ct {
+  border: 1px solid grey;
+  margin: 16px;
+  width: 400px;
+}
+.font-large {
+  font-size: 50px;
+}
+.timer-time {
+  padding: 24px;
+}
+.timer-btns button {
+  margin: 16px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: blue;
+  font-weight: bold;
+}
